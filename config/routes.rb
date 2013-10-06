@@ -8,7 +8,8 @@ Treebook::Application.routes.draw do
   end
 
   resources :statuses
-  get 'feed', to: 'statuses#index', as: :feed
+  get '/updates', to: 'statuses#index', as: :updates
+  get '/updates/create', to: 'statuses#new', as: :updates_create
   root to: 'statuses#index'
 
 
