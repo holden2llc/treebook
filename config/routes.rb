@@ -14,6 +14,7 @@ Treebook::Application.routes.draw do
   get '/updates/create', to: 'statuses#new', as: :updates_create
   root to: 'statuses#index'
 
+  get '/:id', to: 'profiles#show'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
