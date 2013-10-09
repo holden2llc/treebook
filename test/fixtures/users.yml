@@ -3,3 +3,9 @@ ed:
   last_name: "Holden"
   email: "ed@holden2.com"
   profile_name: "ed"
+
+kathleen:
+  first_name: "Kathleen"
+  last_name: "Holden"
+  email: "kathleen@holden2.com"
+  profile_name: "kathleen"  
